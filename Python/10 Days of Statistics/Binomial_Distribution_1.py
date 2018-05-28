@@ -1,3 +1,10 @@
+'''
+The ratio of boys to girls for babies born in Russia is 1.09:1. If there is 1 child born per birth, what proportion of Russian families with exactly 6 children will have at least 3 boys?
+
+Write a program to compute the answer using the above parameters. Then print your result, rounded to a scale of 3 decimal places (i.e.,  1.234format).
+'''
+
+
 def factorial(n):
     if n == 0:
         return 1
@@ -10,8 +17,8 @@ def combination(r, n = 6):
     return num / denom    
 
 def bernoulli(x, y):
-    p = 1.09 / 2.09
-    q = 1 / 2.09
+    p = 1.09 / 2.09	#Probability of boy
+    q = 1 / 2.09	#Probability of girl
     pq = (p ** x) * (q ** y)
     return pq
 
