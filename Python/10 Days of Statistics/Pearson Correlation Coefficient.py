@@ -20,6 +20,10 @@ def cov(x, y, x_m, y_m, n):
         y[i] -= y_m
     for i in range(n):
         result +=  (x[i] * y[i])
+	
+	# 1-for loop
+#	for i in range(n):
+#		result += ((x[i] - x_m) * (y[i] - y_m))
     return result / n
 
 n = int(input())
