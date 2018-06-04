@@ -35,6 +35,7 @@ def std_dev(a, n):
     result = (result / n) ** (0.5)
     return result
 
+#Confidence Interval
 def conf_int(a, n):
     conf_level = 1.96
     m = mean(a, n)
