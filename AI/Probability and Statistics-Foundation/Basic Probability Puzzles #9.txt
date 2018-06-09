@@ -1,0 +1,24 @@
+'''
+A candidate is selected for interview of management trainees for 3 companies. 
+For the first company, there are 12 candidates, for the second there are 15 candidates and for the third, there are 10 candidates. 
+Find the probability that he is selected in at least one of the companies. 
+Assume that 1 candidate will be selected in each of the interviews, and all candidates appearing for the interview have an equal probability of getting selected.
+'''
+
+Probability of selection in 1st company = 1/12 = P(A)
+
+Probability of selection in 2nd company = 1/15 = P(B)
+
+Probability of selection in 3rd company = 1/10 = P(C)
+
+Therefore, probability of not selected = P(A’).P(B’).P(C’)
+
+= [1 – P(A)].[1 – P(B)].[1 – P(C)]
+
+= (1 – 1/12).(1 – 1/15).(1 – 1/10)
+
+= (11/12)(14/15)(9/10) = 77/100
+
+Therefore, probability of selection in at least one company = 1 – P(A’)P(B’)P(C’)
+
+= 1 – 77/100 = 23/100
