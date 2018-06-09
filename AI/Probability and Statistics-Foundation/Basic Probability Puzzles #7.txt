@@ -1,0 +1,23 @@
+'''
+A firm produces steel pipes in three plants.
+
+Plant A produces 500 units per day and has a fraction defective output of 0.005.
+Plant B produces 1000 units per day and has a fraction defective output of 0.008.
+Plant C produces 2000 units per day and has a fraction defective output of 0.010.
+At random, a pipe is selected from the day’s total production and it is found to be defective. What is the probability that it came from plant A?
+
+'''
+
+
+P(A) = 500/3500 = 1/7, 
+P(B) = 1000/3500 = 2/7, 
+P(C) = 2000/3500 = 4/7. 
+And probability of defective pipes, 
+By plant A = P(A/E) = 0.005, 
+By plant B = P(B/E) = 0.008, 
+By plant C = P(C/E) = 0.010.
+Therefore by Baye’s Theorem, probability of defective pipe from first plant 
+= P(E/A) = [P(A)×P(A/E)]/[P(A).P(A/E) + P(B).P(B/E) + P(C).P(C/E)]
+= [1/7×0.005]/[1/7×0.005 + 2/7×0.008 + 4/7×0.010] 
+= 0.005/[0.005 + 0.016 + 0.040] 
+= 0.005/0.061 = 5/61
