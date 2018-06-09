@@ -1,0 +1,21 @@
+'''
+In a certain city, the probability of a resident not reading the morning newspaper is 1/2,
+and the probability of a resident not reading the evening newspaper is 2/5. The probability they will read both newspapers is 1/5.
+
+Find the probability that a resident reads a morning or evening newspaper.
+'''
+
+Probability of not reading morning newspaper (A’) = 1/2
+Probability of reading morning newspaper (A) = 1 – 1/2 = 1/2 = P(A)
+Probability of not reading evening newspaper (B’) = 2/5
+Probability of reading evening news paper (B) = 1 – 2/5 = 3/5 = P(B)
+P(A∩B) = 1/5
+[ P(A∩B) = P(A).P(B), as A and B are independent.]
+
+Probability of reading either of news papers = P(AUB)
+
+= P(A) + P(B) – P(A∩B)
+
+= 1/2 + 3/5 – 1/5
+
+= 1/2 + 2/5 = 9/10. 
