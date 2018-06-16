@@ -1,3 +1,24 @@
+'''
+y1 = a + b1x11 + b2x21 + .. + bnxn1
+y2 = a + b1x21 + b2x22 + .. + bnxn2
+.
+.
+
+
+X = | 1 x11 x21 x31 ... xn1 |
+    | 1 x21 x22 x32 ... xn3 |
+    | 1 ..  .. ... ... ...  |
+
+Y = |y1|
+    |y2|
+    |y3|
+
+Y = XB
+
+B = inv(X.T . X) . X.T . Y
+
+'''
+
 import numpy as np
 
 m, n = [int(x) for x in input().split()]
